@@ -5,6 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.HashMap;
 
+// The TCP Server to receive files
 public class TCPServer {
     private final int PORT = 40000;
     private final int BUFFER_SIZE = 1024;
